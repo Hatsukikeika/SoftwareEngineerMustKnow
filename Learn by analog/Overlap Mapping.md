@@ -15,9 +15,9 @@ The Visualized array is [0, 3, 3, 4, 4, 1, 0, 2, 2], here is they way to map the
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 2. Mark the index with cost cumulatively where each interval starts: 
 [0, 3, 0, 1, 0, 0, 0, 2, 0, 0]
-3. Mark the index with negative cost cumulative where each interval ends (end of range + 1): 
+3. Mark the index with negative cost cumulatively where each interval ends (end of range + 1): 
 [0, 3, 0, 1, 0, -3, -1, 2, 0, -2]
-4. Updata all element by cumulative sum：
+4. Update all element by cumulative sum：
 [0, 3, 3, 4, 4, 1, 0, 2, 2, 0]
 5. Exclude the last element of the array (Roll back the step 1.)
 [0, 3, 3, 4, 4, 1, 0, 2, 2]
