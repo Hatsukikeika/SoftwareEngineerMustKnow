@@ -22,7 +22,8 @@ The Visualized array is [0, 3, 3, 4, 4, 1, 0, 2, 2], here is they way to map the
 5. Exclude the last element of the array (Roll back the step 1.)
 [0, 3, 3, 4, 4, 1, 0, 2, 2]
 
-**Apply this idea to other scenario, e.g. leetcode 1094**
+**Apply this idea to other scenario, e.g.** [Car Pooling leetcode 1094](https://leetcode.com/problems/car-pooling/)
+
 You are given the integer capacity and an array trips where ```trips[i] = [numPassengers, from, to]``` indicates that the ith trip has ```numPassengers``` passengers and the locations to pick them up and drop them off are ```from``` and ```to``` respectively. The locations are given as the number of kilometers due east from the car's initial location.
 
 Return true if it is possible to pick up and drop off all passengers for all the given trips, or false otherwise.
@@ -31,7 +32,7 @@ Let's say the ```trips[]``` contains the same data we used above, and the capaci
 
 Since the numbers in the mapping array are 0,1,2,3,4 and 4 is larger than 3, in this case it should return ```false```.
 
-**Apply this idea to other scenario, e.g. Google OA 2019 found on leetcode discussion board** https://leetcode.com/discuss/interview-question/356520
+**Apply this idea to other scenario, e.g.** [Google OA 2019 found on leetcode discussion board](https://leetcode.com/discuss/interview-question/356520)
 
 There are n guests who are invited to a party. The k-th guest will attend the party at time ```S[k]``` and leave the party at time ```E[k]```.
 
