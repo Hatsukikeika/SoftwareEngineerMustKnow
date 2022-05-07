@@ -18,7 +18,7 @@ EndOfFirstPart.next=null;
 ```Java
 //If the range is the entire linkedlist, this will be null since that next of last element is null.
 ListNode nextOfTheLastNodeInRange; 
-ListNode prevNode;
+ListNode prevNode = nextOfTheLastNodeInRange;
 ListNode currentNode = firstNodeInRange;
 //Caution!!!nextNode is same as the currentNode before entering the whileloop.
 ListNode nextNode = currentNode;
